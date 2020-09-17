@@ -1,0 +1,86 @@
+<style>
+    body {font-family: Arial;}
+    .tab {
+      text-align: right;
+      overflow: hidden;
+      background-color: #696969;
+    }
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+    .tab button:hover {
+      background-color: #ddd;
+    }
+    
+    .tab button.active {
+      background-color: #ccc;
+    }
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+    body{text-align: center ;}
+    .TitleClassMain{
+    font-size: 40px;
+  }
+    </style>
+    </head>
+    <body>
+    <script>
+    function opennn(){
+      window.open("https://redcap.ctsc.weill.cornell.edu/redcap_protocols/surveys/?s=K7FCANHJRN")
+    }
+    
+    function Start(){
+    var code = document.getElementById('Code').value;
+    var MusicCode = "MM"
+    var WritingCode = "NW"
+    var mor = code[0]+code[1]
+    if(MusicCode == mor.toUpperCase()){
+    window.open("VEL-Music.html")
+    }
+    else{
+    if(WritingCode == mor.toUpperCase()){
+    window.open("VEL-Writing.html")
+    }
+    else{
+      alert("Invalid code")
+    }
+    }
+    }
+    function LaunchAbout(){
+      alert("launch about page")
+    }
+    function OpenTab(functionName) {
+if(functionName == 1){
+location.replace("VEL-About.html")
+}
+if (functionName == 2){
+  location.replace(href = "VEL-Email.html")
+}
+
+if (functionName == 3){
+  location.replace("VEL-Main.html")
+}
+    }
+    </script>
+    <div class="tab">
+      <button class="tablinks" onclick="OpenTab(3)">Home</button>
+      <button class="tablinks" onclick="OpenTab(1)">About the Study</button>
+      <button class="tablinks" onclick="OpenTab(2)">Contact us</button>
+      <image class = main width = 150 src = "https://brand.weill.cornell.edu/sites/default/files/WCM_MB_LOGO_HZSS2L_CLR_RGB.png">
+    </div>
+<br>
+<title>Contact Us</title>
+<br>
+<strong class = TitleClassMain>Contact Us</strong><br><br>
+If you have any questions throughout the study, please reach out to the Research Coordinator, Mariel Emrich, at mae2050@med.cornell.edu.
