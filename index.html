@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<div style="text-align: center"></div>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {font-family: Arial;}
+.tab {
+  text-align: right;
+  overflow: hidden;
+  background-color: #696969;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+image{text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+span {text-align: center;}
+input {text-align: center;}
+button {text-align: center;}
+strong {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+body{text-align: center ;}
+</style>
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+<title>Welcome</title>
+</head>
+<body>
+<script>
+function opennn(){
+  window.open("https://redcap.ctsc.weill.cornell.edu/redcap_protocols/surveys/?s=K7FCANHJRN")
+}
+function Start(){
+var code = document.getElementById('Code').value;
+var MusicCode = "MM"
+var WritingCode = "NW"
+var mor = code[0]+code[1]
+if(MusicCode == mor.toUpperCase()){
+window.open("https://juliuswon3.wixsite.com/weilstudy/music")
+}
+else{
+if(WritingCode == mor.toUpperCase()){
+window.open("https://juliuswon3.wixsite.com/weilstudy/writing")
+}
+else{
+  if("TS" == mor.toUpperCase()){
+window.open("https://redcap.ctsc.weill.cornell.edu/redcap_protocols/surveys/?s=MX8NPWMDHT")
+}
+else{
+  alert("Invalid code")
+}
+}
+}
+}
+function LaunchAbout(){
+  alert("launch about page")
+}
+function OpenTab(functionName) {
+if(functionName == 1){
+location.replace("VEL-About.html")
+}
+if (functionName == 2){
+  location.replace(href = "VEL-Email.html")
+}
+
+if (functionName == 3){
+  location.replace("index.html")
+}
+}
+</script>
+<div class="tab">
+  <button class="tablinks" onclick="OpenTab(3)">Home</button>
+  <button class="tablinks" onclick="OpenTab(1)">About the Study</button>
+  <button class="tablinks" onclick="OpenTab(2)">Contact us</button>
+  <image class = main src = "https://brand.weill.cornell.edu/sites/default/files/WCM_MB_LOGO_HZSS2L_CLR_RGB.png" width = 150>
+</div>
+</body>
+</html> 
+<br>
+<strong class = TitleClass>Welcome</strong>
+<style>
+.TitleClass {
+  font-size: 40px;
+}
+.Main {
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: "#5a1370";
+  font-size: 20px;
+  cursor: pointer;
+  border-color:black;
+  border-width: 1px;
+}
+.Main:hover {  
+  border-color:grey;
+}
+</style>
+<p class="Main" id = description>Thank you for participating in the study, "A Brief Phased Two-Step Intervention for Treating General Psychological Distress, PTSD, and Co-Morbidities in Healthcare Workers Consequent to the COVID-19 Pandemic."</p>
+<span class = Main id="results">If you accidently close any tab press Control+Shift+T</span>
+<t></t></p>
+<image src=https://www.europeanpharmaceuticalreview.com/wp-content/uploads/healthcare-workers-covid-19-750x500.jpg height =250></image><br>
+<p class="Main">Please enter your code</p>
+<input class = Main type = text id = Code width = 10>
+<input class = Main type = button onClick = Start() value = submit><br><br>
+<script>
+if(navigator.platform === "MacIntel"){
+document.getElementById('results').innerHTML = "If you accidently close any tab press command shift t";
+document.getElementById('description').innerHTML = "Thank you for participating in the study, A Brief Phased Two-Step Intervention for Treating General Psychological Distress, PTSD, and Co-Morbidities in Healthcare Workers Consequent to the COVID-19 Pandemic.";
+}
+</script>
